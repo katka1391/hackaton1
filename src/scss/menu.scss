@@ -1,0 +1,40 @@
+$text-color: rgb(85, 81, 81);
+html,
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 200px;
+    &-title1 {
+        color: $text-color;
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+    &-title2 {
+        color: $text-color;
+        margin-bottom: 20pxpx;
+        font-size: 30px;
+    }
+    &-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &-container {
+            width: 20%;
+            color: $text-color;
+        }
+    }
+    &-img {
+        display: flex;
+        flex-direction: column;
+        &_maps {
+            display: flex;
+            width: 100%;
+        }
+    }
+}
