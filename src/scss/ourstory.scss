@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Open Sans", sans-serif;
+    padding: 80px;
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+h2 h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ourstory {
+    margin: 300px;
+}
+
+.ourstoryhead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.espresso-machine{
+    max-width:90%;
+    max-height:90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+       
+  }
+
+  .contact {
+    background-color: #22110f;
+    color: white;
+    text-align: center;
+    margin: 360px;
+    padding: 10px;
+    }
