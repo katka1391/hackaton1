@@ -1,0 +1,56 @@
+$lightgray: #F5F5F5;
+
+.coffee {
+    margin: auto;
+    width: 80%;
+    padding-left: 150px; 
+}
+
+.coffee-head {
+    padding-left: 50px;
+}
+
+
+
+.container-coffee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    // width: 80%;  change this one to make it responsive!!!!
+}
+
+
+
+.item {
+    width: 45%;
+    padding: 25px;
+    
+}
+
+.item > p:nth-child(1) {
+    background-color: $lightgray;
+    margin: 0;
+    font-size: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+.coffee-img {
+    width: 100%;
+    margin: auto 0;
+}
+
+.coffee-text {
+    font-size: 15px;
+    padding: 20px;
+    background-color: $lightgray;
+    margin: 0;
+    
+}
+
+.coffee-text-container {
+    height: 200px;
+    background-color: $lightgray;
+}
+
